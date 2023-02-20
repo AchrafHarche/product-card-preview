@@ -123,7 +123,7 @@ h2 {
     -ms-border-radius: 0 0 0.625rem 0.625rem;
     -o-border-radius: 0 0 0.625rem 0.625rem;
     padding: 1.5rem;
-    margin-top: -0.5rem;
+    /* margin-top: -0.5rem; */
 
 }
 
@@ -145,7 +145,7 @@ ul li:last-child {
 
 }
 
-.container article:first-child img {
+.container article picture img {
     border-radius: 0.625rem 0.625rem 0 0;
     -webkit-border-radius: 0.625rem 0.625rem 0 0;
     -moz-border-radius: 0.625rem 0.625rem 0 0;
@@ -187,5 +187,6 @@ ul li:last-child {
         -ms-border-radius: 0 0.625rem 0.625rem 0;
         -o-border-radius: 0 0.625rem 0.625rem 0;
         margin-top: 0;
+        height: 100%;
     }
 }
